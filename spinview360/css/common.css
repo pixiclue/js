@@ -1,0 +1,92 @@
+.box{position:relative; max-width:1200px; margin:0 auto;}
+.img_box{position:relative; width:100%; height:100%; overflow:hidden; z-index:0;}
+
+.btn img{width:30px;}
+.icon_list{font-size:50px; color:red; z-index:100;}
+.icon_list li{display:none;}
+.icon_list .active{display:block;}
+.icon_list a{position:absolute;}
+
+.btn01_01{top:36%; left:54%;}
+.btn02_01{top:36%; left:52%;}
+.btn03_01{top:36%; left:49%;}
+.btn04_01{top:36%; left:47%;}
+.btn05_01{top:36%; left:44%;}
+.btn06_01{top:36%; left:42%;}
+
+.btn07_01{top:43%; left:55%;}
+.btn08_01{top:43%; left:53%;}
+.btn09_01{top:43%; left:51%;}
+.btn10_01{top:43%; left:49%;}
+
+.btn11_01{top:40%; left:76%;}
+.btn12_01{top:40.6%; left:74.7%;}
+.btn13_01{top:41%; left:73%;}
+
+.btn14_01{top:60%; left:71%;}
+.btn15_01{top:61%; left:69%;}
+.btn16_01{top:61%; left:65%;}
+
+.btn17_01{top:38%; left:81%;}
+.btn18_01{top:38.5%; left:78%;}
+.btn19_01{top:38.5%; left:74%;}
+.btn20_01{top:39%; left:69%;}
+
+.btn21_01{top:37%; left:80%;}
+.btn22_01{top:37%; left:76%;}
+.btn23_01{top:37%; left:72%;}
+.btn24_01{top:37%; left:68%;}
+
+.btn25_01{top:72%; left:67%;}
+.btn26_01{top:72%; left:64%;}
+.btn27_01{top:73%; left:61%;}
+.btn28_01{top:74%; left:57%;}
+
+.btn29_01{top:42%; left:58%;}
+.btn30_01{top:42%; left:54%;}
+.btn31_01{top:41.9%; left:51.5%;}
+.btn32_01{top:42.3%; left:48%;}
+
+.btn33_01{top:32%; left:59%;}
+.btn34_01{top:32%; left:58.5%;}
+.btn35_01{top:32%; left:58%;}
+.btn36_01{top:32%; left:58%;}
+.btn37_01{top:32%; left:58%;}
+
+.btn38_01{top:42%; left:51%;}
+.btn39_01{top:42%; left:49%;}
+.btn40_01{top:42.3%; left:48%;}
+.btn41_01{top:42.6%; left:46%;}
+
+.btn42_01{top:56%; left:75%;}
+.btn43_01{top:57%; left:73%;}
+.btn44_01{top:58%; left:71%;}
+.btn45_01{top:59%; left:68%;}
+.btn46_01{top:59%; left:65%;}
+
+.btn47_01{top:48%; left:71%;}
+.btn48_01{top:48%; left:68%;}
+.btn49_01{top:48%; left:63%;}
+.btn50_01{top:48%; left:57%;}
+.btn51_01{top:48%; left:52%;}
+
+.btn52_01{top:60%; left:63.8%;}
+.btn53_01{top:60%; left:58.8%;}
+.btn54_01{top:60%; left:53.8%;}
+.btn55_01{top:60%; left:47.8%;}
+
+.btn56_01{top:58%; left:61%;}
+.btn57_01{top:58%; left:56%;}
+.btn58_01{top:58%; left:52%;}
+.btn59_01{top:59%; left:47%;}
+.btn60_01{top:59%; left:42%;}
+
+
+@media screen and (min-width:720px) {
+    
+}
+
+@media screen and (min-width:360px) {
+    
+}
+

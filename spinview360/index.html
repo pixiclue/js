@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+	<title>Spin View 360</title>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<script type="text/javascript" src="./js/vendor/jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="./js/vendor/jquery-ui.js"></script>
+	<script type="text/javascript" src="./js/vendor/jquery.cookie.js"></script>
+</head>
+<body>
+	<section class="box">
+		<div
+		class="cloudimage-360 img_box"
+		id="vr360"
+		data-folder="./img/car/"
+		data-filename="{index}.png"
+		data-amount="60"
+		data-spin-reverse="true"	
+		data-bottom-circle="true"
+		></div>
+
+		<ul class="icon_list">
+			<li class="icon_box1">
+				<a href="#" class="btn01_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. 왼쪽 사이드미러">
+				</a>
+			</li>
+			<li class="icon_box2">
+				<a href="#" class="btn02_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. 왼쪽 사이드미러">
+				</a>
+			</li>
+			<li class="icon_box3">
+				<a href="#" class="btn03_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. 왼쪽 사이드미러">
+				</a>
+			</li>
+			<li class="icon_box4">
+				<a href="#" class="btn04_01 btn">
+					<img src="./img/b-plus.png" alt="" title="4. 왼쪽 사이드미러">
+				</a>
+			</li>
+			<li class="icon_box5">
+				<a href="#" class="btn05_01 btn">
+					<img src="./img/b-plus.png" alt="" title="5. 왼쪽 사이드미러">
+				</a>
+			</li>
+			<li class="icon_box6">
+				<a href="#" class="btn06_01 btn">
+					<img src="./img/b-plus.png" alt="" title="6. 왼쪽 사이드미러">
+				</a>
+			</li>
+			<li class="icon_box7">
+				<a href="#" class="btn07_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. 앞문손잡이">
+				</a>
+			</li>
+			<li class="icon_box8">
+				<a href="#" class="btn08_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. 앞문손잡이">
+				</a>
+			</li>
+			<li class="icon_box9">
+				<a href="#" class="btn09_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. 앞문손잡이">
+				</a>
+			</li>
+			<li class="icon_box10">
+				<a href="#" class="btn10_01 btn">
+					<img src="./img/b-plus.png" alt="" title="4. 앞문손잡이">
+				</a>
+			</li>
+			<li class="icon_box11">
+				<a href="#" class="btn11_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. 주유투입구">
+				</a>
+			</li>
+			<li class="icon_box12">
+				<a href="#" class="btn12_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. 주유투입구">
+				</a>
+			</li>
+			<li class="icon_box13">
+				<a href="#" class="btn13_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. 주유투입구">
+				</a>
+			</li>
+			<li class="icon_box14">
+				<a href="#" class="btn14_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. 왼쪽 뒷바퀴">
+				</a>
+			</li>
+			<li class="icon_box15">
+				<a href="#" class="btn15_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. 왼쪽 뒷바퀴">
+				</a>
+			</li>
+			<li class="icon_box16">
+				<a href="#" class="btn16_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. 왼쪽 뒷바퀴">
+				</a>
+			</li>
+			<li class="icon_box17">
+				<a href="#" class="btn17_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. 트렁크">
+				</a>
+			</li>
+			<li class="icon_box18">
+				<a href="#" class="btn18_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. 트렁크">
+				</a>
+			</li>
+			<li class="icon_box19">
+				<a href="#" class="btn19_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. 트렁크">
+				</a>
+			</li>
+			<li class="icon_box20">
+				<a href="#" class="btn20_01 btn">
+					<img src="./img/b-plus.png" alt="" title="4. 트렁크">
+				</a>
+			</li>
+			<li class="icon_box21">
+				<a href="#" class="btn21_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. ">
+				</a>
+			</li>
+			<li class="icon_box22">
+				<a href="#" class="btn22_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. ">
+				</a>
+			</li>
+			<li class="icon_box23">
+				<a href="#" class="btn23_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. ">
+				</a>
+			</li>
+			<li class="icon_box24">
+				<a href="#" class="btn24_01 btn">
+					<img src="./img/b-plus.png" alt="" title="4. ">
+				</a>
+			</li>
+			<li class="icon_box25">
+				<a href="#" class="btn25_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. 오른쪽 뒷바퀴">
+				</a>
+			</li>
+			<li class="icon_box26">
+				<a href="#" class="btn26_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. 오른쪽 뒷바퀴">
+				</a>
+			</li>
+			<li class="icon_box27">
+				<a href="#" class="btn27_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. 오른쪽 뒷바퀴">
+				</a>
+			</li>
+			<li class="icon_box28">
+				<a href="#" class="btn28_01 btn">
+					<img src="./img/b-plus.png" alt="" title="4. 오른쪽 뒷바퀴">
+				</a>
+			</li>
+			<li class="icon_box29">
+				<a href="#" class="btn29_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. 뒷문 손잡이">
+				</a>
+			</li>
+			<li class="icon_box30">
+				<a href="#" class="btn30_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. 뒷문 손잡이">
+				</a>
+			</li>
+			<li class="icon_box31">
+				<a href="#" class="btn31_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. 뒷문 손잡이">
+				</a>
+			</li>
+			<li class="icon_box32">
+				<a href="#" class="btn32_01 btn">
+					<img src="./img/b-plus.png" alt="" title="4. 뒷문 손잡이">
+				</a>
+			</li>
+			<li class="icon_box33">
+				<a href="#" class="btn33_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. 옆창문">
+				</a>
+			</li>
+			<li class="icon_box34">
+				<a href="#" class="btn34_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. 옆창문">
+				</a>
+			</li>
+			<li class="icon_box35">
+				<a href="#" class="btn35_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. 옆창문">
+				</a>
+			</li>
+			<li class="icon_box36">
+				<a href="#" class="btn36_01 btn">
+					<img src="./img/b-plus.png" alt="" title="4. 옆창문">
+				</a>
+			</li>
+			<li class="icon_box37">
+				<a href="#" class="btn37_01 btn">
+					<img src="./img/b-plus.png" alt="" title="5. 옆창문">
+				</a>
+			</li>
+			<li class="icon_box38">
+				<a href="#" class="btn38_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. 오른쪽 손잡이">
+				</a>
+			</li>
+			<li class="icon_box39">
+				<a href="#" class="btn39_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. 오른쪽 손잡이">
+				</a>
+			</li>
+			<li class="icon_box40">
+				<a href="#" class="btn40_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. 오른쪽 손잡이">
+				</a>
+			</li>
+			<li class="icon_box41">
+				<a href="#" class="btn41_01 btn">
+					<img src="./img/b-plus.png" alt="" title="4. 오른쪽 손잡이">
+				</a>
+			</li>
+			<li class="icon_box42">
+				<a href="#" class="btn42_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. 오른쪽 앞바퀴">
+				</a>
+			</li>
+			<li class="icon_box43">
+				<a href="#" class="btn43_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. 오른쪽 앞바퀴">
+				</a>
+			</li>
+			<li class="icon_box44">
+				<a href="#" class="btn44_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. 오른쪽 앞바퀴">
+				</a>
+			</li>
+			<li class="icon_box45">
+				<a href="#" class="btn45_01 btn">
+					<img src="./img/b-plus.png" alt="" title="4. 오른쪽 앞바퀴">
+				</a>
+			</li>
+			<li class="icon_box46">
+				<a href="#" class="btn46_01 btn">
+					<img src="./img/b-plus.png" alt="" title="5. 오른쪽 앞바퀴">
+				</a>
+			</li>
+			<li class="icon_box47">
+				<a href="#" class="btn47_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. 라이트">
+				</a>
+			</li>
+			<li class="icon_box48">
+				<a href="#" class="btn48_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. 라이트">
+				</a>
+			</li>
+			<li class="icon_box49">
+				<a href="#" class="btn49_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. 라이트">
+				</a>
+			</li>
+			<li class="icon_box50">
+				<a href="#" class="btn50_01 btn">
+					<img src="./img/b-plus.png" alt="" title="4. 라이트">
+				</a>
+			</li>
+			<li class="icon_box51">
+				<a href="#" class="btn51_01 btn">
+					<img src="./img/b-plus.png" alt="" title="5. 라이트">
+				</a>
+			</li>
+			<li class="icon_box52">
+				<a href="#" class="btn52_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. 번호판">
+				</a>
+			</li>
+			<li class="icon_box53">
+				<a href="#" class="btn53_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. 번호판">
+				</a>
+			</li>
+			<li class="icon_box54">
+				<a href="#" class="btn54_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. 번호판">
+				</a>
+			</li>
+			<li class="icon_box55">
+				<a href="#" class="btn55_01 btn">
+					<img src="./img/b-plus.png" alt="" title="4. 번호판">
+				</a>
+			</li>
+			<li class="icon_box56">
+				<a href="#" class="btn56_01 btn">
+					<img src="./img/b-plus.png" alt="" title="1. 앞등">
+				</a>
+			</li>
+			<li class="icon_box57">
+				<a href="#" class="btn57_01 btn">
+					<img src="./img/b-plus.png" alt="" title="2. 앞등">
+				</a>
+			</li>
+			<li class="icon_box58">
+				<a href="#" class="btn58_01 btn">
+					<img src="./img/b-plus.png" alt="" title="3. 앞등">
+				</a>
+			</li>
+			<li class="icon_box59">
+				<a href="#" class="btn59_01 btn">
+					<img src="./img/b-plus.png" alt="" title="4. 앞등">
+				</a>
+			</li>
+			<li class="icon_box60">
+				<a href="#" class="btn60_01 btn">
+					<img src="./img/b-plus.png" alt="" title="5. 앞등">
+				</a>
+			</li>
+		</ul>
+		<span class="current">1</span>
+	</section>
+
+	<script type="text/javascript" src="./js/vr360.js"></script>
+	<script type="text/javascript" src="./js/common.js"></script>
+</body>
+</html>
